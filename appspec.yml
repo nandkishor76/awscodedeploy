@@ -1,7 +1,8 @@
 version: 0.0
 files:
-  - source: ./codedeploydemo/mydeploy.sh
+	- source: ./codedeploydemo/mydeploy.sh
     destination: /tmp/scripts
+hooks:
   ApplicationStart:
     - location: /tmp/scripts    
       timeout: 
