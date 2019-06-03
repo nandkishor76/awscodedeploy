@@ -1,0 +1,1 @@
+echo "nk code deploy" >> codedeploy.txt
