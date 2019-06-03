@@ -1,7 +1,7 @@
 version: 0.0
 files:
 	- source: ./codedeploydemo/mydeploy.sh
-    destination: /tmp/scripts
+		destination: /tmp/scripts
 hooks:
   ApplicationStart:
     - location: /tmp/scripts    
