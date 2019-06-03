@@ -1,7 +1,8 @@
 version: 0.0
+os: linux
 files:
-	- source: ./codedeploydemo/mydeploy.sh
-		destination: /tmp/scripts
+  - source: /codedeploydemo/mydeploy.sh
+    destination: /tmp/scripts
 hooks:
   ApplicationStart:
     - location: /tmp/scripts    

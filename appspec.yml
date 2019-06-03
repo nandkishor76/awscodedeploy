@@ -5,6 +5,6 @@ files:
     destination: /tmp/scripts
 hooks:
   ApplicationStart:
-    - location: /tmp/scripts    
+    - location: /tmp/scripts/mydeploy.sh    
       timeout: 2m
-      runas: sh mydeploy.sh
+      runas: sudo
